@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.form-wrapper{
+	width: 100%;
+	background: linear-gradient(to right, #EA047E, #FD841F);
+	padding-top: 100px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.form-box{
+	background: white;
+	width: 500px;
+	margin: auto;
+	padding: 64px;
+	border-radius: 8px;
+}
+.form-group{
+	width: 100%;
+	margin-bottom: 16px;
+}
+.d-block{
+	display: block;
+}
+.form-control{
+	padding: 14px;
+	width: 100%;
+	margin-top: 12px;
+}
+.form-control{
+	padding: 14px;
+	width: 93%;
+	margin: 12px 0px;
+}
+.inline{
+	display: inline-block;
+	width: 43%;
+}
+.form-box input:focus{
+	outline-color: red;
+}
+.form-box input:focus::placeholder{
+	color: red;
+}
+.form-box h1{
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: bold;
+}
+.form-box input[type="submit"]{
+	padding: 14px 22px;
+	background: #EA047E;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+.inline-bl{
+	display: inline-block;
+	width: 49%;
+}
+.Password{
+	position: relative;
+}
+.Password i{
+	position: absolute;
+	right: 20px;
+	top: 44px;
+}
+.email{
+	position: relative;
+}
+.email i{
+	position: absolute;
+	right: 20px;
+	top: 44px;
+}
+.social-icon li{
+	list-style: none;
+}
+.social-icon li i{
+	height: 60px;
+	padding: 0 20px;
+	width: 140px;
+	line-height: 60px;
+	background-color: red;
+	color: white;
+	text-align: left;
+	margin-bottom: 4px;
+	font-size: 19px;
+}
+.social-icon li i span{
+	margin-left: 20px;
+}
+.one{
+	position: fixed;
+	right: -130px;
+	bottom: 340px;
+	transition: 0.5s;
+}
+.two{
+	position: fixed;
+	right: -130px;
+	bottom: 270px;
+	transition: 0.5s;
+}
+.three{
+	position: fixed;
+	right: -130px;
+	bottom: 200px;
+	transition: 0.5s;
+}.four{
+	position: fixed;
+	right: -130px;
+	bottom: 130px;
+	transition: 0.5s;
+}
+.five{
+	position: fixed;
+	right: -130px;
+	bottom: 60px;
+	transition: 0.5s;
+}
+.one:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.two:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.three:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.four:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.five:hover{
+	right: 0px;
+	transition: 0.5s;
+}
